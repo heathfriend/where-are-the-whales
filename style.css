@@ -1,0 +1,95 @@
+body {
+  background-color: gray;
+  display: block;
+  position: relative;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.whale-container{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.whale-images {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px black;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.whale-images img {
+  position: absolute;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.whale-button {
+  align-self: center;
+  background: white;
+  color: blue;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px black;
+}
+
+.whale-button:hover {
+  cursor: pointer;
+  background: blue;
+  box-shadow: 1px 1px white;
+  color: white;
+}
+
+/* .whale-images img:first-of-type {
+  display: block;
+} */
+
+ /* img{
+   z-index: 1;
+ } */
+
+/* .container > img {
+  width: 50%;
+  position: absolute;
+  object-fit: contain;
+} */
+
+/* .slider-inner {
+  width: 500px;
+  height: 400px;
+  padding: 3px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px white;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  justify-content: center;
+
+} */
+
+.first{
+z-index: 3;
+position: relative;
+}
+
+/* .killer{
+  overflow: hidden;
+}
+
+.manatee{
+  overflow: hidden;
+  display: none;
+} */
