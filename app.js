@@ -7,7 +7,7 @@ $(() => {
     const userInput = $('input[type="text"]')
 
     $.ajax ({
-      url: `http://hotline.whalemuseum.org/api.json?species=${inputSpecies}`
+      url: `https://hotline.whalemuseum.org/api.json?species=${inputSpecies}`
 
     }).then (
         (data) => {
