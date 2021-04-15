@@ -5,6 +5,7 @@ $(() => {
 
     const inputSpecies = $(event.target).text()
     const userInput = $('input[type="text"]')
+    // const showNear = $(event.target).text()
 
     $.ajax ({
       url: `https://hotline.whalemuseum.org/api.json?species=${inputSpecies}`
@@ -18,10 +19,13 @@ $(() => {
 
           const $getData = $('<div>')
           const $species = $('<div>')
+          const $near = $('<div>')
 
           $species.html(data[i].species)
           $getData.html($species)
           $('body').append($getData)
+          // $radius.html(data[i].radius)
+          // $('body').append($radius)
 
 
           }
